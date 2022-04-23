@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #dbdbdb;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+}
+#social{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    top:0;
+    z-index: 1;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+font{
+    float: left;
+    letter-spacing: 2px;
+}
+span{
+    font-size: 15px;
+}
+#social>i{
+    float: right;
+    margin-left: 15px;
+}
+#sacial>i:hover{
+    opacity: 0.8;
+}
+#container{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+header{
+    width: 100%;
+    height: auto;
+}
+#headerResim{
+    width: 100%;
+}
