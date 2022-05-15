@@ -1,0 +1,66 @@
+body {
+    background-color: #181a1b;
+  }
+
+  .menü {
+    background-color: #142a9a;
+    box-shadow: 2px 2px #161819;
+    border-radius: 13px;
+    position: fixed;
+    width: 260px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    height: 600px;
+  }
+
+  .menüİmg {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    align-self: center;
+  }
+
+  .menüLink {
+    color: white;
+    text-decoration: none;
+  }
+
+  .menüLink:hover {
+    color: white;
+    font-size: large;
+    transition: 150ms;
+    text-decoration: none;
+  }
+
+  .menüSosyalMedya {
+    height: 45px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .menüSosyalMedyaLink {
+    color: red;
+  }
+
+  .menüSosyalMedyaLink:hover {
+    color: black;
+    transition: 600ms;
+  }
+
+ .a{
+   display: none;
+ }
+
+ @media screen and (max-width: 1000px) {
+    .menü {
+      display: none;
+      
+    }
+
+    .a{
+     
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
